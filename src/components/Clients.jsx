@@ -39,14 +39,14 @@ const Clients = () => {
   };
 
   return (
-    <section id="tape" className="pt-32 px-6 md:px-12">
+    <section id="tape" className="pt-16 lg:pt-32 px-6 md:px-12">
       <div className="container">
         <div className="flex flex-col lg:flex-row items-start lg:items-center gap-5">
           <div className="flex items-center text-sm tracking-widest gap-2">
             <hr className="w-5 border-1 border-black" />
             <p>MY CLIENTS</p>
           </div>
-          <div className="flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
+          <div className="flex flex-1 items-end overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
             <div className="flex [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
               <div
                 ref={tapeRef}
