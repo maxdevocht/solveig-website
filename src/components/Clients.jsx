@@ -1,4 +1,3 @@
-import { Fragment, useRef } from "react";
 import { motion } from "framer-motion";
 import logoipsum1 from "../assets/logoipsum1.svg";
 import logoipsum2 from "../assets/logoipsum2.svg";
@@ -9,19 +8,7 @@ import logoipsum6 from "../assets/logoipsum6.svg";
 import logoipsum7 from "../assets/logoipsum7.svg";
 import logoipsum8 from "../assets/logoipsum8.svg";
 import logoipsum9 from "../assets/logoipsum9.svg";
-
-// Importing icons as a string array
-const logo = [
-  logoipsum1,
-  logoipsum2,
-  logoipsum3,
-  logoipsum4,
-  logoipsum5,
-  logoipsum6,
-  logoipsum7,
-  logoipsum8,
-  logoipsum9,
-];
+import { useRef } from "react";
 
 const Clients = () => {
   const tapeRef = useRef();
