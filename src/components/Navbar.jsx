@@ -59,7 +59,7 @@ const Navbar = () => {
     <nav className="py-3 px-6 md:px-12 fixed top-0 left-0 z-50 flex w-full items-center justify-between bg-white shadow-md">
       <div className="size-full md:flex md:items-center md:justify-between">
         <div className="flex items-center justify-between">
-          <NavLink>
+          <NavLink to="/">
             <img
               src="./src/assets/logo.webp"
               alt="Solveig logo"
