@@ -1,5 +1,5 @@
 import { statsData } from "@/assets/assets";
-import CountUp from "./CountUp";
+import CountUp from "../CountUp";
 
 const Stats = () => {
   return (

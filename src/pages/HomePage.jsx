@@ -1,10 +1,10 @@
-import Clients from "@/components/Clients";
-import CTA from "@/components/CTA";
-import Header from "@/components/Header";
-import Services from "@/components/Services";
-import Stats from "@/components/Stats";
-import Work from "@/components/Work";
-import WorkMarquee from "@/components/WorkMarquee";
+import Clients from "@/components/Home/Clients";
+import CTA from "@/components/Home/CTA";
+import Header from "@/components/Home/Header";
+import Services from "@/components/Home/Services";
+import Stats from "@/components/Home/Stats";
+import Work from "@/components/Home/Work";
+import WorkMarquee from "@/components/Home/WorkMarquee";
 
 const HomePage = () => {
   return (

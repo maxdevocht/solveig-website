@@ -1,4 +1,4 @@
-import Marquee from "./Marquee";
+import Marquee from "../Marquee";
 
 const Header = () => {
   return (

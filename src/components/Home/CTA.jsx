@@ -1,5 +1,5 @@
 import CTAMarquee from "./CTAMarquee";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 const CTA = () => {
   return (

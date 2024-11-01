@@ -107,7 +107,7 @@ const Navbar = () => {
         >
           <div className="first:pt-4 md:first:pt-0">
             <NavLink
-              to="/"
+              to="/work"
               className="block py-3 md:py-2 text-sm tracking-widest hover:text-black/50"
               onClick={() => handleNavLinkClick("/work")}
             >
@@ -116,7 +116,7 @@ const Navbar = () => {
           </div>
           <div className="first:pt-4 md:first:pt-0">
             <NavLink
-              to="/"
+              to="/contact"
               className="block py-3 md:py-2 text-sm tracking-widest hover:text-black/50"
               onClick={() => handleNavLinkClick("/contact")}
             >
