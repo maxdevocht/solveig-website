@@ -14,6 +14,7 @@ const Stats = () => {
                 <CountUp
                   from={0}
                   to={stats.number}
+                  delay={stats.delay}
                   separator=","
                   direction="up"
                   duration={1}

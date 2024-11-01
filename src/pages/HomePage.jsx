@@ -1,4 +1,5 @@
 import Clients from "@/components/Clients";
+import CTA from "@/components/CTA";
 import Header from "@/components/Header";
 import Services from "@/components/Services";
 import Stats from "@/components/Stats";
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Services />
       <WorkMarquee />
       <Work />
+      <CTA />
     </div>
   );
 };

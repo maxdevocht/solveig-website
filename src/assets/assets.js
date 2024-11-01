@@ -8,21 +8,25 @@ export const statsData = [
     title: "CLIENTS",
     number: "200",
     symbol: "+",
+    delay: 0,
   },
   {
     title: "PROJECTS",
     number: "300",
     symbol: "+",
+    delay: 0.2,
   },
   {
     title: "FOLLOWERS",
     number: "90",
     symbol: "K",
+    delay: 0.4,
   },
   {
     title: "HAPPY CLIENTS",
     number: "100",
     symbol: "%",
+    delay: 0.6,
   },
 ];
 
