@@ -1,5 +1,7 @@
 import work1 from "./work1.webp";
 import work2 from "./work2.webp";
+import work3 from "./work3.webp";
+import work4 from "./work4.webp";
 
 export const images = [work1, work2];
 
@@ -62,6 +64,41 @@ export const workData = [
     description: "BRANDING",
     image: {
       src: work2,
+      alt: "work image",
+    },
+  },
+];
+
+export const workSectionData = [
+  {
+    title: "VISION BRANDING",
+    description: "BRANDING",
+    image: {
+      src: work1,
+      alt: "work image",
+    },
+  },
+  {
+    title: "BRAND STUDIO",
+    description: "BRANDING",
+    image: {
+      src: work2,
+      alt: "work image",
+    },
+  },
+  {
+    title: "LOGO AGENCY",
+    description: "BRANDING",
+    image: {
+      src: work3,
+      alt: "work image",
+    },
+  },
+  {
+    title: "DESIGN AGENCY",
+    description: "BRANDING",
+    image: {
+      src: work4,
       alt: "work image",
     },
   },
