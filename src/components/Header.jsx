@@ -12,6 +12,7 @@ const Header = () => {
 
       <div>
         <Marquee />
+        <img src="./src/assets/header-img.png" alt="Product Design image" />
       </div>
     </section>
   );
