@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <section id="header" className="mt-20 px-6 md:px-12 py-8">
       <div className="pb-8 flex flex-col gap-3">
-        <img src="../../public/finn.svg" alt="Finn Solveig" />
+        <img src="./src/assets/finn.svg" alt="Finn Solveig" />
         <h2 className="text-base md:text-3xl lg:text-5xl font-semibold">
           BRAND DESIGNER FROM BERLIN
         </h2>
@@ -12,7 +12,11 @@ const Header = () => {
 
       <div>
         <Marquee />
-        <img src="../../public/header-img.png" alt="Product Design image" />
+        <img
+          src="./src/assets/header-img.png"
+          alt="Product Design image"
+          className="w-full object-fill"
+        />
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
-import work1 from "../../public/work1.webp";
-import work2 from "../../public/work2.webp";
+import work1 from "./work1.webp";
+import work2 from "./work2.webp";
 
 export const images = [work1, work2];
 

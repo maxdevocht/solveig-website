@@ -7,12 +7,12 @@ const Footer = () => {
         <div className="w-full flex flex-col lg:flex-row items-start gap-12">
           <div className="flex items-center gap-2 w-1/2">
             <img
-              src="../../public/star.svg"
+              src="./src/assets/star.svg"
               alt="star image"
               width={20}
               height={20}
             />
-            <img src="../../public/logo-light.svg" alt="Solveig logo light" />
+            <img src="./src/assets/logo-light.svg" alt="Solveig logo light" />
           </div>
           <div className="flex flex-col md:flex-row items-start gap-12 md:gap-32 w-1/2">
             <div className="flex flex-col items-start gap-4">

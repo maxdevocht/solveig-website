@@ -8,7 +8,7 @@ const Services = () => {
           <div className="static md:sticky md:top-[20%] flex flex-col justify-between">
             <div>
               <img
-                src="../../public/star.svg"
+                src="./src/assets/star.svg"
                 alt="star image"
                 className="mb-2"
               />
@@ -18,7 +18,7 @@ const Services = () => {
             </div>
             <div className="flex items-center gap-4">
               <img
-                src="../../public/avatar.png"
+                src="./src/assets/avatar.png"
                 alt="avatar"
                 className="h-12 w-auto"
               />
@@ -40,7 +40,7 @@ const Services = () => {
                 <div className="flex md:flex-row flex-col gap-2">
                   <div className="mb-3 md:mb-4">
                     <img
-                      src="../../public/star.svg"
+                      src="./src/assets/star.svg"
                       alt="star image"
                       className="size-8"
                     />
