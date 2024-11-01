@@ -56,7 +56,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="py-3 md:py-5 px-6 md:px-12 fixed top-0 left-0 z-50 flex w-full items-center justify-between bg-white shadow-md">
+    <nav className="py-3 px-6 md:px-12 fixed top-0 left-0 z-50 flex w-full items-center justify-between bg-white shadow-md">
       <div className="size-full md:flex md:items-center md:justify-between">
         <div className="flex items-center justify-between">
           <NavLink>
@@ -108,7 +108,7 @@ const Navbar = () => {
           <div className="first:pt-4 md:first:pt-0">
             <NavLink
               to="/"
-              className="block py-3 md:py-2 text-base hover:text-black/50"
+              className="block py-3 md:py-2 text-sm tracking-widest hover:text-black/50"
               onClick={() => handleNavLinkClick("/work")}
             >
               WORK
@@ -117,7 +117,7 @@ const Navbar = () => {
           <div className="first:pt-4 md:first:pt-0">
             <NavLink
               to="/"
-              className="block py-3 md:py-2 text-base hover:text-black/50"
+              className="block py-3 md:py-2 text-sm tracking-widest hover:text-black/50"
               onClick={() => handleNavLinkClick("/contact")}
             >
               CONTACT
