@@ -5,7 +5,7 @@ import { Textarea } from "../ui/textarea";
 const Form = () => {
   return (
     <section className="px-6 md:px-12 mt-20 pt-12 pb-40">
-      <div className="flex flex-col lg:flex-row gap-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 w-full">
         <div className="flex flex-col items-start justify-between">
           <div className="mb-8">
             <div className="py-3 md:py-2">
