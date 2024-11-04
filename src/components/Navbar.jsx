@@ -53,6 +53,7 @@ const Navbar = () => {
   const handleNavLinkClick = () => {
     setIsMobileMenuOpen(false); // Close the mobile menu
     navigate(); // Navigate to the path
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (

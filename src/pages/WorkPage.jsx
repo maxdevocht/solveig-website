@@ -4,7 +4,7 @@ import WorkHeader from "@/components/Work/WorkHeader";
 
 const WorkPage = () => {
   return (
-    <div>
+    <div id="work">
       <WorkHeader />
       <Work />
       <CTA />

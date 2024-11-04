@@ -3,7 +3,7 @@ import Socials from "@/components/Contact/Socials";
 
 const ContactPage = () => {
   return (
-    <div>
+    <div id="contact">
       <Form />
       <Socials />
     </div>

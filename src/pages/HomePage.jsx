@@ -8,7 +8,7 @@ import WorkMarquee from "@/components/Home/WorkMarquee";
 
 const HomePage = () => {
   return (
-    <div>
+    <div id="home">
       <Header />
       <Stats />
       <Clients />

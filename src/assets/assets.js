@@ -71,6 +71,7 @@ export const workData = [
 
 export const workSectionData = [
   {
+    id: "vision-branding",
     title: "VISION BRANDING",
     description: "BRANDING",
     image: {
@@ -79,6 +80,7 @@ export const workSectionData = [
     },
   },
   {
+    id: "brand-studio",
     title: "BRAND STUDIO",
     description: "BRANDING",
     image: {
@@ -87,6 +89,7 @@ export const workSectionData = [
     },
   },
   {
+    id: "logo-agency",
     title: "LOGO AGENCY",
     description: "BRANDING",
     image: {
@@ -95,11 +98,31 @@ export const workSectionData = [
     },
   },
   {
+    id: "design-agency",
     title: "DESIGN AGENCY",
     description: "BRANDING",
     image: {
       src: work4,
       alt: "work image",
     },
+  },
+];
+
+export const statsProject = [
+  {
+    title: "CLIENT",
+    text: "INVISION STUDIO",
+  },
+  {
+    title: "TIMELINE",
+    text: "4 WEEKS",
+  },
+  {
+    title: "SERVICES",
+    text: "BRANDING",
+  },
+  {
+    title: "WEBSITE",
+    text: "GOLA.IO",
   },
 ];
