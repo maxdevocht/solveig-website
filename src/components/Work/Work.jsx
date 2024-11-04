@@ -1,14 +1,21 @@
 import { workSectionData } from "@/assets/assets";
+import CustomCursor from "../CustomCursor";
+import { useState } from "react";
 
 const Work = () => {
+  const cursorImage = "../assets/cursor.png";
+  const [isCursorActive, setIsCursorActive] = useState(false);
+
   return (
     <section className="px-6 md:px-12 pt-12 grid grid-cols-1 md:grid-cols-2 gap-4 pb-24">
+      <CustomCursor cursorImage={cursorImage} isActive={isCursorActive} />
       {workSectionData.map((item, index) => (
-        <div
-          key={index}
-          className="flex flex-col items-start gap-2 cursor-pointer group"
-        >
-          <div className="overflow-hidden">
+        <div key={index} className="flex flex-col items-start gap-2 group">
+          <div
+            className="overflow-hidden hover:cursor-none"
+            onMouseEnter={() => setIsCursorActive(true)}
+            onMouseLeave={() => setIsCursorActive(false)}
+          >
             <img
               src={item.image.src}
               alt="work image"

@@ -1,5 +1,6 @@
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
+import { Textarea } from "../ui/textarea";
 
 const Form = () => {
   return (
@@ -31,15 +32,11 @@ const Form = () => {
           </div>
         </div>
 
-        <form>
+        <form className="">
           <div className="block w-full mb-8">
             <Input type="text" placeholder="Your Name" className="mb-4" />
             <Input type="email" placeholder="Your Email" className="mb-4" />
-            <Input
-              type="textarea"
-              placeholder="Your Message"
-              className="mb-4"
-            />
+            <Textarea placeholder="Type your message here." />
           </div>
           <Button className="w-full">Send Message</Button>
         </form>
