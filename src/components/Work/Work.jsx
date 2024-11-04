@@ -8,11 +8,13 @@ const Work = () => {
           key={index}
           className="flex flex-col items-start gap-2 cursor-pointer group"
         >
-          <img
-            src={item.image.src}
-            alt="work image"
-            className="group-hover:scale-105"
-          />
+          <div className="overflow-hidden">
+            <img
+              src={item.image.src}
+              alt="work image"
+              className="group-hover:scale-105 transition-all duration-200"
+            />
+          </div>
           <div>
             <p className="text-xl tracking-wider">{item.title}</p>
             <span className="text-sm tracking-wider font-light">
