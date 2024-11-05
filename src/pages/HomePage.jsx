@@ -1,3 +1,4 @@
+import Fade from "@/components/Fade";
 import Clients from "@/components/Home/Clients";
 import CTA from "@/components/Home/CTA";
 import Header from "@/components/Home/Header";
@@ -9,13 +10,15 @@ import WorkMarquee from "@/components/Home/WorkMarquee";
 const HomePage = () => {
   return (
     <div id="home">
-      <Header />
-      <Stats />
-      <Clients />
-      <Services />
-      <WorkMarquee />
-      <Work />
-      <CTA />
+      <Fade blur={true}>
+        <Header />
+        <Stats />
+        <Clients />
+        <Services />
+        <WorkMarquee />
+        <Work />
+        <CTA />
+      </Fade>
     </div>
   );
 };
