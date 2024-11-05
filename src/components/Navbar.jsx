@@ -61,12 +61,7 @@ const Navbar = () => {
       <div className="size-full md:flex md:items-center md:justify-between">
         <div className="flex items-center justify-between">
           <NavLink to="/">
-            <img
-              src="./src/assets/logo.webp"
-              alt="Solveig logo"
-              width={150}
-              height={150}
-            />
+            <img src="/logo.webp" alt="Solveig logo" width={150} height={150} />
           </NavLink>
 
           <button

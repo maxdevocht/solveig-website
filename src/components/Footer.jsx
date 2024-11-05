@@ -6,13 +6,8 @@ const Footer = () => {
       <div className="flex flex-col items-start gap-24">
         <div className="w-full flex flex-col lg:flex-row items-start gap-12">
           <div className="flex items-center gap-2 w-1/2">
-            <img
-              src="./src/assets/star.svg"
-              alt="star image"
-              width={20}
-              height={20}
-            />
-            <img src="./src/assets/logo-light.svg" alt="Solveig logo light" />
+            <img src="./star.svg" alt="star image" width={20} height={20} />
+            <img src="./logo-light.svg" alt="Solveig logo light" />
           </div>
           <div className="flex flex-col md:flex-row items-start gap-12 md:gap-32 w-1/2">
             <div className="flex flex-col items-start gap-4">

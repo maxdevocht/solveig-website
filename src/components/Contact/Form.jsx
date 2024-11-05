@@ -18,11 +18,7 @@ const Form = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <img
-              src="./src/assets/avatar.png"
-              alt="avatar"
-              className="h-12 w-auto"
-            />
+            <img src="./avatar.png" alt="avatar" className="h-12 w-auto" />
             <div className="flex flex-col">
               <p className="text-lg font-normal">FINN SØLVEIG</p>
               <span className="text-sm font-light tracking-widest">

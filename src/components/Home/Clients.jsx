@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-import logoipsum1 from "../../assets/logoipsum1.svg";
-import logoipsum2 from "../../assets/logoipsum2.svg";
-import logoipsum3 from "../../assets/logoipsum3.svg";
-import logoipsum4 from "../../assets/logoipsum4.svg";
-import logoipsum5 from "../../assets/logoipsum5.svg";
-import logoipsum6 from "../../assets/logoipsum6.svg";
-import logoipsum7 from "../../assets/logoipsum7.svg";
-import logoipsum8 from "../../assets/logoipsum8.svg";
-import logoipsum9 from "../../assets/logoipsum9.svg";
+import logoipsum1 from "../../../public/logoipsum1.svg";
+import logoipsum2 from "../../../public/logoipsum2.svg";
+import logoipsum3 from "../../../public/logoipsum3.svg";
+import logoipsum4 from "../../../public/logoipsum4.svg";
+import logoipsum5 from "../../../public/logoipsum5.svg";
+import logoipsum6 from "../../../public/logoipsum6.svg";
+import logoipsum7 from "../../../public/logoipsum7.svg";
+import logoipsum8 from "../../../public/logoipsum8.svg";
+import logoipsum9 from "../../../public/logoipsum9.svg";
 import { useRef } from "react";
 
 const Clients = () => {
