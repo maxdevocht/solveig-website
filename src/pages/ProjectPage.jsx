@@ -62,7 +62,7 @@ const ProjectPage = () => {
         <section className="mt-20 px-6 md:px-12 py-8">
           <div className="w-full flex flex-col md:mb-18 lg:mb-20">
             <div>
-              <img src="./star.svg" alt="star image" className="mb-2" />
+              <img src="../star.svg" alt="star image" className="mb-2" />
               <h2 className="rb-5 mb-5 text-4xl font-semibold md:mb-6 md:text-5xl lg:text-6xl">
                 BRAND NEW BRANDING
               </h2>
@@ -73,7 +73,7 @@ const ProjectPage = () => {
                 <AccordionTrigger>
                   <div className="flex items-center gap-2">
                     <img
-                      src="./star.svg"
+                      src="../star.svg"
                       alt="star image"
                       className="w-8 h-8"
                     />
@@ -94,7 +94,7 @@ const ProjectPage = () => {
                 <AccordionTrigger>
                   <div className="flex items-center gap-2">
                     <img
-                      src="./star.svg"
+                      src="../star.svg"
                       alt="star image"
                       className="w-8 h-8"
                     />
@@ -113,7 +113,7 @@ const ProjectPage = () => {
                 <AccordionTrigger>
                   <div className="flex items-center gap-2">
                     <img
-                      src="./star.svg"
+                      src="../star.svg"
                       alt="star image"
                       className="w-8 h-8"
                     />
