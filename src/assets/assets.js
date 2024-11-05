@@ -52,6 +52,7 @@ export const servicesData = [
 
 export const workData = [
   {
+    id: "vision-branding",
     title: "VISION BRANDING",
     description: "BRANDING",
     image: {
@@ -60,6 +61,7 @@ export const workData = [
     },
   },
   {
+    id: "brand-studio",
     title: "BRAND STUDIO",
     description: "BRANDING",
     image: {

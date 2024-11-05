@@ -1,6 +1,7 @@
 import { workData } from "@/assets/assets";
 import CustomCursor from "../CustomCursor";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Work = () => {
   const cursorImage = "../assets/cursor.png";
@@ -10,7 +11,11 @@ const Work = () => {
     <section className="px-6 md:px-12 pt-12 grid grid-cols-1 md:grid-cols-2 gap-4 pb-24">
       <CustomCursor cursorImage={cursorImage} isActive={isCursorActive} />
       {workData.map((item, index) => (
-        <div key={index} className="flex flex-col items-start gap-2 group">
+        <Link
+          to={`/work/${item.id}`}
+          key={index}
+          className="flex flex-col items-start gap-2 group"
+        >
           <div
             className="overflow-hidden hover:cursor-none"
             onMouseEnter={() => setIsCursorActive(true)}
@@ -28,7 +33,7 @@ const Work = () => {
               {item.description}
             </span>
           </div>
-        </div>
+        </Link>
       ))}
     </section>
   );
